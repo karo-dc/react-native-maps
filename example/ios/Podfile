@@ -12,7 +12,6 @@ target 'example' do
   rn_maps_path = '../../' # This path is likely to be `../node_modules/react-native-maps` in your own project.
 
   pod 'react-native-maps', path: rn_maps_path
-  pod 'react-native-google-maps', path: rn_maps_path  # Remove this line if you don't want to support GoogleMaps on iOS
 
   target 'exampleTests' do
     inherit! :complete
